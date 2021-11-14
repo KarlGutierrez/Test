@@ -6,7 +6,7 @@ application = Flask(__name__)
 
 @application.route('/')
 def hello():
-    return 'Hello Mohamed\n'
+    return 'Hello Mohamed Belhadj\n'
 
 @application.route('/random/<n>')
 def randomvalues(n):
